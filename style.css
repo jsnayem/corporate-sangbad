@@ -1,0 +1,49 @@
+@font-face { font-family: SolaimanLipi; src: url('SolaimanLipi.ttf'); }
+body{
+    margin: 0;
+    font-family: SolaimanLipi;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+.topbar{
+    background: linear-gradient(90deg, rgba(70, 172, 194, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    display: flex;
+    padding: 5px 16px;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar {
+    background-color: #46ACC2;
+    display: flex;
+    padding: 12px 16px;
+    color: white;
+}
+.Navbar_Items {
+    display:flex;
+    gap:16px;
+    font-size: 18px;
+}
+.Navbar_Link {
+    padding-right: 8px;
+}
+@media only screen and (max-width: 768px) {
+    .Navbar_Items,
+    .Navbar {
+      flex-direction: column;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Navbar_Items,
+    .Navbar {
+      flex-direction: column;
+    }
+    .Navbar_Items {
+      display:none;
+    }
+}
