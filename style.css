@@ -152,7 +152,7 @@ h4 {
 }
 
 .hero-column-child img {
-    width: 30%;
+    width: 40%;
     height: auto;
     border-radius: 5px;
 }
@@ -162,10 +162,10 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
 }
 .psi{
     padding: 10px;
-    height: fit-content;
     width: 300px;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
