@@ -85,6 +85,9 @@ h4 {
     width: 600px;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-main img {
@@ -136,6 +139,12 @@ h4 {
 
 .hero-double-column-section {
     display: flex;
+}
+
+.hero-double-column-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .hero-column img {
