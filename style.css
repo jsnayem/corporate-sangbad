@@ -34,14 +34,18 @@ h3 {
 h4 {
     margin: 0;
 }
-
+#line-icon{
+    font-size: 1em;
+    background: -webkit-linear-gradient(#333, #ea2028);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .header {
     display: flex;
     justify-content: space-between;
     padding: 16px;
     align-items: center;
 }
-
 .topbar {
     background: linear-gradient(90deg, rgba(70, 172, 194, 1) 0%, rgba(0, 0, 0, 1) 100%);
     color: white;
@@ -126,7 +130,7 @@ h4 {
 
 .hero-child img {
     width: 30%;
-    height: auto;
+    aspect-ratio: 7 / 4;
     border-radius: 5px;
 }
 
@@ -185,7 +189,7 @@ h4 {
 
 .hero-column-child img {
     width: 40%;
-    height: auto;
+    aspect-ratio: 7/4;
     border-radius: 5px;
 }
 
@@ -205,7 +209,7 @@ h4 {
 }
 .hero-box-child img {
     width: 100%;
-    height: auto;
+    aspect-ratio: 7 / 4;
     border-radius: 5px;
 }
 
@@ -221,13 +225,13 @@ h4 {
     width: 300px;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
-    background-color: rgba(255, 0, 0, 0.7);
     justify-content: space-between;
     display: flex;
     flex-direction: column;}
 .psi img{
 width: 100%;
 height: 85px;
+border:1px solid red;
 }
 /*hero column widget end*/
 @media only screen and (max-width: 768px) {
