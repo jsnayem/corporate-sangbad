@@ -229,10 +229,16 @@ h4 {
 .video-container:hover .play-button{
     background-color: #ea2028;
 }
+#video-row-title{
+    display: flex;
+    gap: 0.5em;
+    color: #fff;
+}
 #video-title{
     display: flex;
     gap: 0.5em;
     color: #fff;
+    font-size: 1em;
 }
 .hero-box-child-separator{
     width: 30%;
@@ -490,4 +496,33 @@ h4 {
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%);
     }
+}
+
+/*Footer Section*/
+.footer{
+    background-color: #e5ca5466;
+    margin-top: 10px; 
+    padding: 20px;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.footer-column ul{
+    list-style: none;
+}
+.footer-credit{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
