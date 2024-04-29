@@ -36,7 +36,9 @@ h3 {
 h4 {
     margin: 0;
 }
-
+ul{
+    margin: 0;
+}
 #line-icon {
     font-size: 1em;
     background: -webkit-linear-gradient(#333, #ea2028);
@@ -490,6 +492,7 @@ h4 {
 .card-container{
     border: 1px solid #e2e2e2;
     border-radius: 5px;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
 }
@@ -499,7 +502,6 @@ h4 {
 }
 .card-container p{
     padding: 5px;
-    background-color: #fff;
     border-radius: 0 0 5px 5px;
 }
 .double-column{
