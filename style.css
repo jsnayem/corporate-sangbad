@@ -319,7 +319,7 @@ ul{
 .hero-column-tight {
     display: flex;
     flex-direction: column;
-    width: 24%;
+    width: 23%;
 }
 .hero-column-border{
     display: flex;
