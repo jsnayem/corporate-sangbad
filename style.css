@@ -111,10 +111,10 @@ ul{
 }
 
 .section {
-    padding: 16px 16px 0;
+    padding: 1% 1% 0;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 1%;
 }
 
 .red-section{
@@ -142,15 +142,16 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 55%;
 }
 
 /*hero main widget start*/
 .hero-main {
-    padding: 10px;
-    width: 600px;
+    padding: 2%;
+    width: 96%;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
-    gap: 10px;
+    gap: 1%;
     display: flex;
     flex-direction: column;
     background-color: #F5F5F5;
@@ -266,10 +267,10 @@ ul{
     padding: 10px;
 }
 .hero-box-child-separator-tight{
-    width: 30%;
+    width: 48%;
     display: flex;
     flex-direction: column;
-    padding: 2% 1%;
+    padding: 1%;
 }
 .hero-box-child-separator-tight img{
     width: 100%;
@@ -299,22 +300,44 @@ ul{
     flex-direction: column;
     justify-content: space-between;
 }
-.separator-container-tight{
+.hero-column-container{
     display: flex;
-    flex-direction: column;
-    padding: 1%;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
-
 .hero-column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
-    width: 300px;
+    padding: 1%;
+    width: 20%;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
-    gap: 10px;
     background-color: #F5F5F5;
+}
+.hero-column-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+    width: 22.1%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+.hero-column-wide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+    width: 30%;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+.hero-column-wide img{
+    border-radius: 5px;
 }
 .hero-column-tight {
     display: flex;
@@ -338,8 +361,8 @@ ul{
 .hero-column-border-item-container{
     padding: 10px 0;
 }
-.hero-column-border-item-container:nth-child(4){
-    border-bottom: none;
+.hero-column-border-item-container-wide{
+    padding: 5px;
 }
 .hero-column-border-item-container img{
     width: 100%;
@@ -348,8 +371,8 @@ ul{
 .hero-double-column {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    width: 600px;
+    padding: 2%;
+    width: 96%;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
     background-color: #F5F5F5;
@@ -364,10 +387,9 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 10px;
 }
 #hero-double-column-item-separator{
-    gap: 0;
+    justify-content: center;
 }
 .hero-column img {
     width: 100%;
@@ -378,8 +400,7 @@ ul{
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 8px;
-    padding: 10px 0px 0px;
+    padding: 2% 0 0;
 }
 
 .hero-column-child img {
@@ -415,8 +436,8 @@ ul{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 10px 0px 0px;
+    gap: 0.5em;
+    padding: 1% 1% 0;
 }
 
 .hero-box-child img {
@@ -435,7 +456,7 @@ ul{
 
 .psi {
     padding: 10px;
-    width: 350px;
+    width: 25%;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
     justify-content: space-between;
@@ -450,8 +471,8 @@ ul{
     border: 1px solid red;
 }
 .advertisement{
-    padding: 10px;
-    width: 300px;
+    padding: 1%;
+    width: 25%;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
     justify-content: space-between;
@@ -525,9 +546,13 @@ ul{
 .double-column{
     display: flex;
     flex-direction: column;
-    width: 38%;
+    width: 30%;
 }
-
+.double-column-tight{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
 .card-content-container{
     width:96%;
     padding: 2%;
@@ -536,7 +561,7 @@ ul{
     width:100%;
 }
 .card-content-container-small{
-    width:45%;
+    width:96%;
     padding: 2%;
 }
 .card-content-container-small img{
@@ -549,7 +574,7 @@ ul{
 }
 .content-column{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
     gap: 2%;
@@ -629,7 +654,6 @@ ul{
         transform: translateX(-100%);
     }
 }
-
 /*Footer Section*/
 .footer{
     background-color: #e5ca5466;
